@@ -5,7 +5,7 @@ from aiogram.filters import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # هنا سيقرأ البوت التوكن من إعدادات موقع Render تلقائياً
-TOKEN = os.getenv('TOKEN')
+TOKEN = "8665170952:AAEzZh8Fcn1X6Nxb6JE-1xvhqp4nzRPMJgc"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
